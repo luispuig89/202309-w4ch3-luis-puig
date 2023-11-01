@@ -15,6 +15,8 @@ export function Card({ character, chooseMessage }: Props) {
     event.preventDefault();
     character.isAlive = false;
     setChar(character);
+    console.log(char);
+
   };
 
   const msg = `<div className="comunications">
