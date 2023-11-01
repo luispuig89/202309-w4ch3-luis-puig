@@ -1,4 +1,4 @@
-import { ReactElement, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Card } from '../card/card';
 import { useCharacters } from '../../hooks/use.character';
 

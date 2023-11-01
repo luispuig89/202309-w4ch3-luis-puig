@@ -1,4 +1,4 @@
-import { ReactElement, SyntheticEvent, useState } from 'react';
+import { SyntheticEvent, useState } from 'react';
 import { Character } from '../../model/character';
 import { Emoji } from '../emoji/emoji';
 import { ExtraData } from '../extra.data/extra.data';
@@ -8,6 +8,7 @@ type Props = {
   chooseMessage: (message: string) => void;
 };
 export function Card({ character, chooseMessage }: Props) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [char, setChar] = useState(character);
 
   const handleDeath = (event: SyntheticEvent) => {
