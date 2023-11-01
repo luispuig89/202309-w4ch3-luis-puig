@@ -21,6 +21,9 @@ body {
   object-position: top;
   height: 200px;
 }
+.card-img-top {
+  transform: rotate(180deg);
+}
 .character__card {
   position: relative;
   border: none;
